@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Pokemon Visualization</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fetch/2.0.3/fetch.min.js"></script>
+    <script src="https://d3js.org/d3.v5.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <h1>Pokemon: Special Defense vs Total Stats</h1>
+    <div>
+      Select Generation: 
+      <select id="gen">
+        <option value="all">(all)</option>
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+        <option value="6">6</option>
+      </select>
+    </div>
+    <div>
+      Filter Legendaries: 
+      <select id="legend">
+        <option value="all">(all)</option>
+        <option value="True">true</option>
+        <option value="False">false</option>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
